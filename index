@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Форма заявки</title></head>
+<body>
+  <form id="myForm" action="https://api.apimonster.ru/webhooks/150674/31061/18/35465d874250f7dcfb58cf4b8fc2e4c8/" method="POST">
+    <input type="text" name="name" placeholder="Имя" required>
+    <input type="tel" name="phone" placeholder="Телефон" required>
+    <input type="email" name="email" placeholder="Email">
+    <textarea name="comment" placeholder="Комментарий"></textarea>
+    <button type="submit">Отправить</button>
+  </form>
+</body>
+</html>
